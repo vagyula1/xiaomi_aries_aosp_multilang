@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alert_sound_duration_entries">
+        <item>To sekunder</item>
+        <item>Fire sekunder</item>
+        <item>Seks sekunder</item>
+        <item>Åtte sekunder</item>
+        <item>Ti sekunder</item>
+    </string-array>
+</resources>

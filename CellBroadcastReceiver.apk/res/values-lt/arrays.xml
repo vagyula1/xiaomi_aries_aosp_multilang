@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alert_sound_duration_entries">
+        <item>2 sek.</item>
+        <item>4 sek.</item>
+        <item>6 sek.</item>
+        <item>8 sek.</item>
+        <item>10 sek.</item>
+    </string-array>
+</resources>
