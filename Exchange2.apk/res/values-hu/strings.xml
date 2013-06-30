@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="exchange_name">Vállalat</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
     <string name="meeting_accepted">Elfogadva: %s</string>
     <string name="meeting_declined">Elutasítva: %s</string>
@@ -38,10 +39,10 @@
     <string name="policy_require_manual_sync_roaming">Csak kézi szinkronizálás barangoláskor</string>
     <string name="policy_require_encryption">Eszköztitkosítás szükséges</string>
     <string name="account_setup_options_mail_window_auto">Automatikus</string>
-    <string name="account_setup_options_mail_window_1day">Egy nap</string>
-    <string name="account_setup_options_mail_window_3days">Három nap</string>
-    <string name="account_setup_options_mail_window_1week">Egy hét</string>
-    <string name="account_setup_options_mail_window_2weeks">Két hét</string>
-    <string name="account_setup_options_mail_window_1month">Egy hónap</string>
+    <string name="account_setup_options_mail_window_1day">Naponta</string>
+    <string name="account_setup_options_mail_window_3days">Három naponta</string>
+    <string name="account_setup_options_mail_window_1week">Hetente</string>
+    <string name="account_setup_options_mail_window_2weeks">Kéthetente</string>
+    <string name="account_setup_options_mail_window_1month">Havonta</string>
     <string name="account_setup_options_mail_window_all">Összes</string>
 </resources>

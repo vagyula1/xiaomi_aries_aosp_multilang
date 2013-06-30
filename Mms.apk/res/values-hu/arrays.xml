@@ -23,6 +23,9 @@
         <item>Kacsintás</item>
         <item>Pókerarc</item>
     </string-array>
+
+
+
     <string-array name="select_dialog_items">
         <item>1 másodperc</item>
         <item>2 másodperc</item>
@@ -34,7 +37,7 @@
         <item>8 másodperc</item>
         <item>9 másodperc</item>
         <item>10 másodperc</item>
-        <item>Egyéb</item>
+        <item>Egyéb…</item>
     </string-array>
     <string-array name="prefEntries_vibrateWhen">
         <item>Mindig</item>

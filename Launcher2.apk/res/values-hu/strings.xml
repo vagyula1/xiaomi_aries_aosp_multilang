@@ -3,7 +3,7 @@
     <string name="application_name">Indító</string>
     <string name="home">Főoldal</string>
     <string name="uid_name">Alap Android-alkalmazások</string>
-    <string name="folder_name" />
+
     <string name="chooser_wallpaper">Válasszon tapétát innen:</string>
     <string name="wallpaper_instructions">Háttérkép kiválasztása</string>
     <string name="pick_wallpaper">Háttérképek</string>
@@ -15,7 +15,7 @@
     <string name="external_drop_widget_pick_title">A létrehozáshoz válasszon modult</string>
     <string name="rename_folder_label">Mappa neve</string>
     <string name="rename_folder_title">Mappa átnevezése</string>
-    <string name="rename_action">OK</string>
+
     <string name="cancel_action">Mégse</string>
     <string name="menu_item_add_item">Hozzáadás a főoldalhoz</string>
     <string name="group_applications">Alkalmazások</string>
@@ -81,16 +81,12 @@
     <string name="folder_cling_title">Rendezze alkalmazásait mappákba</string>
     <string name="folder_cling_move_item">Ha egy alkalmazást át szeretne helyezni, érintse meg, és tartsa lenyomva.</string>
     <string name="folder_cling_create_folder">Ha egy új mappát szeretne létrehozni a kezdőképernyőn, helyezzen egymásra két alkalmazást.</string>
-    <string name="cling_dismiss">OK</string>
+
     <string name="folder_opened">Mappa megnyitva -- szélesség: %1$d; magasság: %2$d</string>
     <string name="folder_tap_to_close">Érintse meg a mappa bezárásához</string>
     <string name="folder_tap_to_rename">Érintse meg az átnevezés mentéséhez</string>
     <string name="folder_closed">Mappa lezárva</string>
     <string name="folder_renamed">Mappa új neve: %1$s</string>
     <string name="folder_name_format">Mappa: %1$s</string>
-    <string name="custom_workspace_cling_title_1" />
-    <string name="custom_workspace_cling_description_1" />
-    <string name="custom_workspace_cling_title_2" />
-    <string name="custom_workspace_cling_description_2" />
-    <string name="default_folder_name">Google</string>
+
 </resources>

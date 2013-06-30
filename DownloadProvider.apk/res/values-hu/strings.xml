@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_label">Letöltéskezelő</string>
+    <string name="app_label">Letöltéskezelő</string>  
     <string name="permlab_downloadManager">Hozzáférés a letöltéskezelőhöz.</string>
     <string name="permdesc_downloadManager">Lehetővé teszi az alkalmazás számára a letöltéskezelő elérését fájlok letöltéséhez. A rosszindulatú alkalmazások kihasználhatják ezt a letöltések megzavarására és személyes adatok elérésére.</string>
     <string name="permlab_downloadManagerAdvanced">Speciális letöltéskezelő-funkciók.</string>
     <string name="permdesc_downloadManagerAdvanced">Lehetővé teszi az alkalmazás számára a letöltéskezelő speciális funkcióinak elérését. A rosszindulatú alkalmazások kihasználhatják ezt a letöltések megzavarására és személyes adatok elérésére.</string>
     <string name="permlab_downloadCompletedIntent">Letöltési értesítések küldése.</string>
     <string name="permdesc_downloadCompletedIntent">Lehetővé teszi az alkalmazás számára, hogy értesítést küldjön a befejezett letöltésekről. A rosszindulatú alkalmazások kihasználhatják ezt más, fájlokat letöltő alkalmazások megzavarására.</string>
-    <string name="permlab_seeAllExternal">USB-tár letöltéseit látja</string>
+    <string name="permlab_seeAllExternal">SD-kártyára irányuló összes letöltés megtekintése</string>
     <string name="permdesc_seeAllExternal">Lehetővé teszi az alkalmazás számára az SD-kártyán található összes letöltés megtekintését, függetlenül attól, hogy melyik alkalmazás töltötte le azokat.</string>
     <string name="permlab_downloadCacheNonPurgeable">Hely lefoglalása a letöltési gyorsítótárban</string>
     <string name="permdesc_downloadCacheNonPurgeable">Az alkalmazás letölthet fájlokat a letöltési gyorsítótárba, amelyeket a letöltéskezelő nem törölhet automatikusan, ha helyre van szüksége.</string>

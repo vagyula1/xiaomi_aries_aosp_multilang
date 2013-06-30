@@ -16,6 +16,7 @@
         <item>2 perc</item>
         <item>5 perc</item>
         <item>10 perc</item>
+        <item>30 perc</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Soha</item>
@@ -42,7 +43,7 @@
         <item>Kicsi</item>
         <item>Normál</item>
         <item>Nagy</item>
-        <item>Hatalmas</item>
+        <item>Extra nagy</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Nagyon lassú</item>
@@ -58,6 +59,20 @@
         <item>Magas</item>
         <item>Nagyon magas</item>
     </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Keresés...</item>
@@ -69,8 +84,6 @@
         <item>Kapcsolat bontása...</item>
         <item>Nincs kapcsolat</item>
         <item>Sikertelen</item>
-        <item>Letiltva</item>
-        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
@@ -83,14 +96,6 @@
         <item>Kapcsolat bontása %1$s hálózattal...</item>
         <item>Nincs kapcsolat</item>
         <item>Sikertelen</item>
-        <item>Letiltva</item>
-        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
-    </string-array>
-    <string-array name="wifi_eap_method">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>Nyilvános webes meghajtó</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Nyomógomb</item>
@@ -136,12 +141,6 @@
         <item>Elindítások száma</item>
         <item>Alkalmazás neve</item>
     </string-array>
-    <string-array name="wifi_eap_entries">
-        <item>PEAP</item>
-        <item>TLS</item>
-        <item>TTLS</item>
-        <item>Nyilvános webes meghajtó</item>
-    </string-array>
     <string-array name="wifi_phase2_entries">
         <item>Semelyik</item>
         <item>PAP</item>
@@ -162,22 +161,6 @@
         <item>Riasztás</item>
         <item>Rezgés</item>
     </string-array>
-    <string-array name="apn_auth_entries">
-        <item>Nincs</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP vagy CHAP</item>
-    </string-array>
-    <string-array name="apn_protocol_entries">
-        <item>IPv4</item>
-        <item>IPv6</item>
-        <item>IPv4/IPv6</item>
-    </string-array>
-    <string-array name="bearer_entries">
-        <item>LTE</item>
-        <item>eHRPD</item>
-        <item>Nem meghatározott</item>
-    </string-array>
     <string-array name="app_install_location_entries">
         <item>Belső tárhely</item>
         <item>Eltávolítható SD-kártya</item>
@@ -192,6 +175,11 @@
         <item>Ellenőrzés soha</item>
         <item>Csak DRM-tartalom ellenőrzése</item>
         <item>Ellenőrzés mindig</item>
+    </string-array>
+    <string-array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Soha ne használjon HDCP ellenőrzést</item>
@@ -216,15 +204,6 @@
         <item>Animáció mérete: 5x</item>
         <item>Animáció mérete: 10x</item>
     </string-array>
-    <string-array name="animator_duration_scale_entries">
-        <item>Animáció ki</item>
-        <item>Animáció léptéke: 0,5x</item>
-        <item>Animáció léptéke: 1x</item>
-        <item>Animáció léptéke: 1,5x</item>
-        <item>Animáció léptéke: 2x</item>
-        <item>Animáció léptéke: 5x</item>
-        <item>Animáció léptéke: 10x</item>
-    </string-array>
     <string-array name="app_process_limit_entries">
         <item>Normál korlátozás</item>
         <item>Nincsenek háttérfolyamatok</item>
@@ -232,6 +211,14 @@
         <item>Legfeljebb 2 folyamat</item>
         <item>Legfeljebb 3 folyamat</item>
         <item>Legfeljebb 4 folyamat</item>
+    </string-array>
+    <string-array name="vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>PPTP VPN</item>
@@ -248,5 +235,23 @@
         <item>Csatlakoztatva</item>
         <item>Időtúllépés</item>
         <item>Sikertelen</item>
+    </string-array>
+   
+    <string-array name="haptic_feedback_level_entries">
+        <item>Gyenge</item>
+        <item>Közepes</item>
+        <item>Erős</item>
+    </string-array>
+
+    <string-array name="usb_connection_mode_entries">
+        <item>Mindig kérdezzen rá</item>
+        <item>Csak töltés</item>
+        <item>SD kártya felcsatolása</item>
+    </string-array>
+
+ <string-array name="power_mode_entries">
+        <item>Maximális</item>
+        <item>Normál</item>
+        <item>Energiatakarékos</item>
     </string-array>
 </resources>
